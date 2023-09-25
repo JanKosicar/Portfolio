@@ -1,0 +1,55 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{margin: 0;
+  padding: 0px;
+  font-family: poppins, poppins;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#portfolio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+#porfolio-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#porfolio-heading span{
+  color: #f33c3c;
+
+}
+
+#porfolio-heading h3{
+  font-size: 2.4rem;
+  color: #2b2b2b;
+  font-weight: 600;
+  
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
